@@ -1,13 +1,15 @@
 {
   "name": "@qvgk/react-toggle-theme",
-  "description": "Updated React theme toggle switch, based off react-toggle-theme by forgng.",
-  "version": "1.3.0",
+  "description": "An updated, and reformed version of react-toggle-theme by forgng.",
+  "version": "1.3.2",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "license": "MIT",
+
   "scripts": {
     "build": "rollup -c"
   },
+
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
