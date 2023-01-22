@@ -1,7 +1,7 @@
 {
   "name": "@qvgk/react-toggle-theme",
   "description": "An updated, and reformed version of react-toggle-theme by forgng.",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "license": "MIT",
@@ -23,5 +23,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
-  }
+  },
+
+  "keywords": ["react", "theme", "toggle", "dark", "light", "mode", "qvgk"]
 }
