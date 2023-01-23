@@ -1,13 +1,13 @@
 {
-  "compilerOptions": {
-    "jsx": "react",                         
-    "module": "ESNext",                         
-    "declaration": true,                 
-    "sourceMap": true,                                
-    "outDir": "dist",                                   
-    "esModuleInterop": true,                             
-    "forceConsistentCasingInFileNames": true,            
-    "strict": true,                                                      
-    "skipLibCheck": true                                 
-  }
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "ESNext",
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
 }

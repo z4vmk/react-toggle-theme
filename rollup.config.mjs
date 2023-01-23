@@ -6,6 +6,7 @@ import commonjs from '@rollup/plugin-commonjs'
 
 import postcss from 'rollup-plugin-postcss'
 import typescript from '@rollup/plugin-typescript'
+import terser from '@rollup/plugin-terser'
 
 // Package File
 import pkg from './package.json' assert {type: 'json'}
@@ -37,6 +38,7 @@ export default {
         }),
         typescript({
             tsconfig: './tsconfig.json'
-        })
+        }),
+        terser()
     ]
 }
