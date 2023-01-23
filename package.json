@@ -25,5 +25,17 @@
     "typescript": "^4.9.4"
   },
 
-  "keywords": ["react", "theme", "toggle", "dark", "light", "mode", "qvgk"]
+  "files": [
+    "dist"
+  ],
+  
+  "keywords": [
+    "react",
+    "theme",
+    "toggle",
+    "dark",
+    "light",
+    "mode",
+    "qvgk"
+  ]
 }
