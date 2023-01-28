@@ -1,17 +1,29 @@
 {
     "name": "@qvgk/react-toggle-theme",
     "description": "An updated, and reformed version of react-toggle-theme by forgng.",
-    "version": "1.4.0",
+    "version": "1.4.1",
+
+    "author": "QVGK",
+    "bugs": {
+        "url": "https://github.com/QVGK/react-toggle-theme/issues",
+        "email": "qv@qvgk.org"
+    },
+
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/QVGK/react-toggle-theme.git"
+    },
+
     "main": "./dist/index.js",
     "module": "./dist/index.es.js",
-    "license": "MIT",
     "scripts": {
         "build": "rollup -c"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^24.0.1",
         "@rollup/plugin-node-resolve": "^15.0.1",
-        "@rollup/plugin-terser": "^0.3.0",
+        "@rollup/plugin-terser": "^0.4.0",
         "@rollup/plugin-typescript": "^11.0.0",
         "@rollup/plugin-url": "^8.0.1",
         "@svgr/rollup": "^6.5.1",
