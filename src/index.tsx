@@ -1,5 +1,4 @@
 // Dependencies
-import React from 'react';
 import styles from './styles.css';
 
 // Other
@@ -14,12 +13,12 @@ interface Props {
 }
 
 // Component
-export default function ToggleTheme({ selectedTheme, onChange, id }: Props) {
+export default function ToggleTheme({ selectedTheme, onChange, id = 'toggle-theme-switch' }: Props) {
     return (
         <>
             <input
                 type='checkbox'
-                id={`${id ? id : 'toggle-theme-switch'}`}
+                id={id}
                 checked={selectedTheme === Theme.DARK}
                 onChange={(e) => {
                     const newTheme = e.target.checked
@@ -29,7 +28,7 @@ export default function ToggleTheme({ selectedTheme, onChange, id }: Props) {
                 }}
             />
 
-            <label htmlFor={`${id ? id : 'toggle-theme-switch'}`}>
+            <label htmlFor={id}>
                 <div className={styles.toggleContainer}>
                     <div className={styles.circle}>
                         <svg
