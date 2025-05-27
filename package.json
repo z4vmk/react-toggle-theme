@@ -1,11 +1,11 @@
 {
-    "name": "@qvgk/react-toggle-theme",
+    "name": "@z4vmk/react-toggle-theme",
     "description": "An updated, and reformed version of react-toggle-theme by forgng.",
-    "version": "1.4.3",
-    "author": "QVGK",
+    "version": "1.5.0",
+    "author": "z4vmk",
     "bugs": {
-        "url": "https://github.com/QVGK/react-toggle-theme/issues",
-        "email": "qv@qvgk.org"
+        "url": "https://github.com/z4vmk/react-toggle-theme/issues",
+        "email": "z4vmk@proton.me"
     },
     "license": "MIT",
     "repository": {
