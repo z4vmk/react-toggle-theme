@@ -1,7 +1,6 @@
 <div align=center>
     <h1>React Toggle Theme</h1>
-    Reformed by QVGK
-    <br /><br />
+    <br />
     <img src='https://github.com/forgng/react-toggle-theme/raw/master/toggle-theme.gif' />
 </div>
 
@@ -18,18 +17,18 @@ You're welcome.
 ## Installation
 
 ```console
-yarn add @qvgk/react-toggle-theme
+yarn add @z4vmk/react-toggle-theme
 ```
 
 ```console
-npm install @qvgk/react-toggle-theme
+npm install @z4vmk/react-toggle-theme
 ```
 
 ## Usage
 
 ```js
 import React, { useState } from "react"
-import ToggleTheme from "@qvgk/react-toggle-theme"
+import ToggleTheme from "@z4vmk/react-toggle-theme"
 
 export default function App() {
   const [currentTheme, setCurrentTheme] = useState("light")
