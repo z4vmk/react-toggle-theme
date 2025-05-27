@@ -7,21 +7,21 @@
 ## About React Toggle Theme
 React Toggle Theme was a React component originally created by [forgng](https://github.com/forgng).
 
-I saw that it had many issues that weren't getting fixed, so I decided to take it into my own hands and "reform" the module.
-I took out all packages that weren't needed, and fixed the ones that still remained. 
-Then, I took the original code for the switch and put it here.
-
-Oh, and I had to learn some TypeScript for this. 
-You're welcome.
+This is an updated version of the React Toggle Theme component. The original hasn't been updated for approximately 6 years, making it 
 
 ## Installation
 
-```console
-yarn add @z4vmk/react-toggle-theme
-```
 
 ```console
 npm install @z4vmk/react-toggle-theme
+```
+
+```console
+bun add @z4vmk/react-toggle-theme
+```
+
+```console
+yarn add @z4vmk/react-toggle-theme
 ```
 
 ## Usage
