@@ -2,38 +2,37 @@
     "name": "@qvgk/react-toggle-theme",
     "description": "An updated, and reformed version of react-toggle-theme by forgng.",
     "version": "1.4.3",
-
     "author": "QVGK",
     "bugs": {
         "url": "https://github.com/QVGK/react-toggle-theme/issues",
         "email": "qv@qvgk.org"
     },
-
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/QVGK/react-toggle-theme.git"
     },
-
     "main": "./dist/index.js",
     "module": "./dist/index.es.js",
     "scripts": {
-        "build": "rollup -c"
+        "build": "rollup -c",
+        "prepare": "yarn build"
     },
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^24.0.1",
-        "@rollup/plugin-node-resolve": "^15.0.1",
-        "@rollup/plugin-terser": "^0.4.0",
-        "@rollup/plugin-typescript": "^11.0.0",
-        "@rollup/plugin-url": "^8.0.1",
-        "@svgr/rollup": "^6.5.1",
-        "@types/react": "^18.0.27",
-        "postcss": "^8.4.21",
-        "rollup": "^3.10.1",
+        "@rollup/plugin-commonjs": "^28.0.3",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^12.1.2",
+        "@rollup/plugin-url": "^8.0.2",
+        "@svgr/rollup": "^8.1.0",
+        "@types/react": "^19.1.5",
+        "@types/react-dom": "^19.1.5",
+        "postcss": "^8.5.3",
+        "rollup": "^4.41.1",
         "rollup-plugin-peer-deps-external": "^2.2.4",
         "rollup-plugin-postcss": "^4.0.2",
         "tslib": "^2.4.1",
-        "typescript": "^4.9.4"
+        "typescript": "^5.8.3"
     },
     "peerDependencies": {
         "react": "^17.0.0 || ^18.0.0",
