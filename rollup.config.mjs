@@ -10,7 +10,7 @@ import typescript from '@rollup/plugin-typescript'
 import PeerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 // Package File
-import pkg from './package.json' assert {type: 'json'}
+import pkg from './package.json' with {type: 'json'}
 
 export default {
     input: 'src/index.tsx',

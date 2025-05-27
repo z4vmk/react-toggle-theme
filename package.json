@@ -10,13 +10,13 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/QVGK/react-toggle-theme.git"
+        "url": "https://github.com/z4vmk/react-toggle-theme.git"
     },
     "main": "./dist/index.js",
     "module": "./dist/index.es.js",
     "scripts": {
         "build": "rollup -c",
-        "prepare": "yarn build"
+        "prepare": "npm run build"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^28.0.3",
@@ -31,7 +31,7 @@
         "rollup": "^4.41.1",
         "rollup-plugin-peer-deps-external": "^2.2.4",
         "rollup-plugin-postcss": "^4.0.2",
-        "tslib": "^2.4.1",
+        "tslib": "^2.8.1",
         "typescript": "^5.8.3"
     },
     "peerDependencies": {
